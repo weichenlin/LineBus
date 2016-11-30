@@ -1,0 +1,21 @@
+{
+  "name": "aznc/line_bus_type76",
+  "description": "EventBus for Line bot development",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WeiChen Lin",
+      "email": "developer@aznc.cc"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AZnC\\LineBusType76\\": "src/"
+    }
+  },
+  "require": {
+    "linecorp/line-bot-sdk": "^1.3",
+    "evenement/evenement": "2.0.*"
+  }
+}

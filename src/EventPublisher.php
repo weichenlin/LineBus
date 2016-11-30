@@ -28,6 +28,8 @@ class EventPublisher
     public function __construct(Request $request, $token, $secret)
     {
         $this->request = $request;
+        $this->token = $token;
+        $this->secret = $secret;
     }
 
     public function start(EventEmitter $emitter)
